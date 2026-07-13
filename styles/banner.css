@@ -1,0 +1,23 @@
+.banner{
+display: flex;
+background-color: rgb(247, 202, 120);
+padding: 20px;
+}
+.banner-content{
+flex: 1;
+}
+.banner-img-container{
+flex: 1;
+}
+.banner-img-container img {
+width:100% ;
+}
+.banner-content button{
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 20px;
+    padding: 5px 15px;
+    
+}
+.banner-content button:hover{
+    background-color: rgb(240, 220, 184)
+}
